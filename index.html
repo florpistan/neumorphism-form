@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col col-6 offset-3">
+          <div class="alert alert-dismissible alert-info">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+            ></button>
+            <strong>Hi there!</strong> This
+            <a href="https://github.com/florpistan" class="alert-link">is me</a
+            >, I'm trying out this new bootswatch theme.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-6 offset-3">
+          <h2 class="">Form</h2>
+          <form>
+            <fieldset>
+              <legend>Some kind of morph form</legend>
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label mt-4"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else. (Yeah,
+                  sure!)</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label mt-4"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleSelect1" class="form-label mt-4"
+                  >How many pets do you have?</label
+                >
+                <select class="form-select" id="exampleSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea" class="form-label mt-4"
+                  >You can leave me your comments here
+                </label>
+                <textarea
+                  class="form-control"
+                  id="exampleTextarea"
+                  rows="3"
+                ></textarea>
+              </div>
+              <fieldset class="form-group">
+                <legend class="mt-4">Are you a Dev?</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="optionsRadios"
+                      id="optionsRadios1"
+                      value="option1"
+                      checked=""
+                    />
+                    Yeah!
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="optionsRadios"
+                      id="optionsRadios2"
+                      value="option2"
+                    />
+                    No, I'm not that cool.
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset class="form-group">
+                <legend class="mt-4">Check in here!</legend>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Okay
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend class="mt-4">Switches, you can play with them</legend>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >I love switches!</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="flexSwitchCheckChecked"
+                    checked=""
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckChecked"
+                    >This is fun!</label
+                  >
+                </div>
+              </fieldset>
+              <button type="submit" class="mt-2 btn btn-primary">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
